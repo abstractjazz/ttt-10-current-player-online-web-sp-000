@@ -8,7 +8,7 @@ def turn_count(board)
   move_count
 end
 
-def current_player (board)
+def current_player(board)
     turn_count(board) % 2 == 0 ? "X" : "0"
   end
 end
